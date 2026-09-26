@@ -8,6 +8,9 @@
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; padding: 40px; max-width: 800px; margin: 0 auto; color: #333; }
         header { border-bottom: 2px solid #eee; padding-bottom: 20px; }
+        nav { display: flex; gap: 10px; margin: 22px 0; }
+        nav a { color: #2457a6; text-decoration: none; padding: 8px 14px; border: 1px solid #d8e0ec; border-radius: 6px; }
+        nav a:hover, nav a[aria-current="page"] { background: #2457a6; color: #fff; }
         footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.9em; color: #666; }
     </style>
 </head>
@@ -15,8 +18,12 @@
 
     <header>
         <h1>Subrata Shil</h1>
-        <p>Official Developer Portal & Business Representative Page</p>
+        <p>Official Developer Portal &amp; Business Representative Page</p>
     </header>
+    <nav aria-label="Primary navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+    </nav>
     <main>
         <div style="background-color: hsla(0, 0%, 96%, 0.296);">
         <p>Welcome to the official developer portal and business representative page of Subrata Shil.</p>
@@ -42,6 +49,7 @@
 
     <footer>
         <p>&copy; 2026 Subrata Shil. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
     </footer>
 
 </body>
